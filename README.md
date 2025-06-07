@@ -54,7 +54,7 @@ O **SafeWay** surge como uma solução digital inteligente pensada para atuar em
 
 ## 📁 Estrutura de Pastas
 
-/
+```plaintext
 ├── index.html           # Página inicial explicando o problema e a solução
 ├── rotas.html           # Página com simulação de rotas seguras
 ├── alerta.html          # Página para verificação de risco
