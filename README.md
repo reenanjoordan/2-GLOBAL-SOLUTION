@@ -55,7 +55,7 @@ O **SafeWay** surge como uma solução digital inteligente pensada para atuar em
 
 ## 📁 Estrutura de Pastas
 
-📦 SafeWay
+`📦 SafeWay
 ├── 📄 index.html  # Página inicial
 ├── 📄 rotas.html  # Mapa de rotas seguras
 ├── 📄 alerta.html # Verificação de risco
@@ -63,7 +63,7 @@ O **SafeWay** surge como uma solução digital inteligente pensada para atuar em
 ├── 📄 style.css   # Estilos globais
 ├── 📄 script.js   # Scripts JS (alertas, mapa, formulário, etc.)
 ├── 📄 integrantes.txt # Lista de integrantes do grupo
-└── 📄 README.md # Documentação do projeto (este arquivo)
+└── 📄 README.md # Documentação do projeto (este arquivo)`
 
 ---
 
