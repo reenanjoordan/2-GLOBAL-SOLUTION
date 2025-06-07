@@ -10,21 +10,20 @@ Este projeto é um aplicativo web desenvolvido para auxiliar em situações de r
 
 ## Estrutura do Projeto
 
-├── index.html # Página inicial com apresentação do problema e solução
-├── rotas.html # Página com mapa interativo para escolha de rotas seguras
+├── index.html  # Página inicial com apresentação do problema e solução
+├── rotas.html  # Página com mapa interativo para escolha de rotas seguras
 ├── alerta.html # Página para visualização e seleção do nível de risco atual
-├── ajuda.html # Formulário para envio de pedido de ajuda
-├── style.css # Estilos CSS para todas as páginas
-├── script.js # Scripts JavaScript para interação e simulações
-├── README.md # Documentação do projeto
+├── ajuda.html  # Formulário para envio de pedido de ajuda
+├── style.css   # Estilos CSS para todas as páginas
+├── script.js   # Scripts JavaScript para interação e simulações
+├── README.md   # Documentação do projeto
 ├── integrantes.txt # Lista de integrantes do grupo
 
 ## Tecnologias Utilizadas
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
-- Imagem para mapa interativo
+- JavaScript
 
 ## Como usar
 
