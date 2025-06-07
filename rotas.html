@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SafeWay | Rotas Seguras</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <link rel="icon" type="image/png" href="imagens/mapa.png" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+  <style>
+    #map {
+      width: 100%;
+      height: 450px;
+      margin-top: 20px;
+      border: 2px solid #0f62fe;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+  <h1>SafeWay</h1>
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">Início</a></li>
+      <li><a href="rotas.html" class="active">Rotas Seguras</a></li>
+      <li><a href="alerta.html">Alerta de Risco</a></li>
+      <li><a href="ajuda.html">Pedir Ajuda</a></li>
+    </ul>
+  </nav>
+</header>
+
+  </header>
+
+  <main class="container">
+    <h2>Simulação de Rotas Seguras</h2>
+    <p>Confira abaixo as rotas mais seguras para evacuação em caso de Eventos Extremos:</p>
+
+    <div id="map"></div>
+  </main>
+
+  <footer>
+    <p>© 2025 - SafeWay: Sua rota segura em momentos de risco</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      if (window.location.pathname.includes("rotas.html")) {
+        const map = L.map("map").setView([-23.5505, -46.6333], 13);
+
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+          attribution: '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+        }).addTo(map);
+
+        const pontos = [
+          {
+            nome: "Abrigo 1",
+            coords: [-23.5489, -46.6388],
+          },
+          {
+            nome: "Ponto de Enchente",
+            coords: [-23.5510, -46.6350],
+          },
+        ];
+
+        pontos.forEach((ponto) => {
+          L.marker(ponto.coords)
+            .addTo(map)
+            .bindPopup(`<strong>${ponto.nome}</strong>`);
+        });
+
+        const rota = [
+          [-23.5489, -46.6388],
+          [-23.5510, -46.6350],
+        ];
+
+        L.polyline(rota, { color: "blue" }).addTo(map);
+      }
+    });
+  </script>
+</body>
+</html>
+
+

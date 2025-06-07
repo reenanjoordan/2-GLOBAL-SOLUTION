@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-color: #004d99;
+    padding: 15px 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #cce6ff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover, nav a.ativo {
+    color: white;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #004d99;
+}
+
+p, ul {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+#mapa-container {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+#mapa {
+    width: 100%;
+    border: 2px solid #004d99;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.mensagem {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #004d99;
+    text-align: center;
+}
+
+.botoes-alerta button {
+    background-color: #004d99;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    margin: 10px;
+    font-size: 1em;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botoes-alerta button:hover {
+    background-color: #003366;
+}
+
+form label {
+    font-weight: bold;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #004d99;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1.1em;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #003366;
+}
+
+.mensagem-sucesso {
+    color: green;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+header {
+  background-color: #004b99;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav .menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav .menu li {
+  display: inline;
+}
+
+nav .menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav .menu a:hover,
+nav .menu a.active {
+  text-decoration: underline;
+}
+
+.container-central {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.botoes-risco {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.botoes-risco button {
+  background-color: #004b99;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botoes-risco button:hover {
+  background-color: #003066;
+}
+
+.orientacoes {
+  text-align: left;
+}
+
+.orientacoes h3 {
+  color: #003066;
+}
+
+.alerta {
+  margin-top: 20px;
+}
+
+.alerta h4 {
+  margin-bottom: 10px;
+}
+
+.alerta ul {
+  padding-left: 20px;
+}
+
+.botoes-alerta {
+  display: flex;
+  justify-content: center; 
+  gap: 10px; 
+  margin-top: 10px;
+}

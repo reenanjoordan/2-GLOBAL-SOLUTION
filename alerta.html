@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alerta de Risco</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Alerta de Risco</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="rotas.html">Rotas Seguras</a>
+            <a href="alerta.html" class="ativo">Alerta de Risco</a>
+            <a href="ajuda.html">Pedir Ajuda</a>
+        </nav>
+    </header>
+
+    <main>
+        <p style="text-align: center;">Selecione o nível de risco atual para receber orientações:</>
+        <div class="botoes-alerta">
+            <button onclick="mostrarAlerta('baixo')">Baixo</button>
+            <button onclick="mostrarAlerta('medio')">Médio</button>
+            <button onclick="mostrarAlerta('alto')">Alto</button>
+        </div>
+
+        <div id="mensagem-alerta" class="mensagem"></div>
+    </main>
+
+  <footer>
+        <p>© 2025 - SafeWay: Sua rota segura em momentos de risco</p>
+    </footer>
+</div>
+</p>
+    <script src="script.js"></script>
+</body>
+
+</html>

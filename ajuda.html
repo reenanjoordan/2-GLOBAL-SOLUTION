@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pedir Ajuda</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Pedir Ajuda</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="rotas.html">Rotas Seguras</a>
+            <a href="alerta.html">Alerta de Risco</a>
+            <a href="ajuda.html" class="ativo">Pedir Ajuda</a>
+        </nav>
+    </header>
+
+    <main>
+        <form id="form-ajuda">
+            <label for="nome">Nome:</label><br />
+            <input type="text" id="nome" name="nome" required /><br /><br />
+
+            <label for="localizacao">Localização:</label><br />
+            <input type="text" id="localizacao" name="localizacao" required /><br /><br />
+
+            <label for="mensagem">Mensagem:</label><br />
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br /><br />
+
+            <button type="submit">Enviar Pedido</button>
+        </form>
+        <p id="feedback" class="mensagem-sucesso"></p>
+    </main>
+
+    <script>
+        const form = document.getElementById('form-ajuda');
+        const feedback = document.getElementById('feedback');
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            feedback.textContent = 'Pedido enviado com sucesso! Equipe de resgate acionada.';
+            form.reset();
+        });
+    </script>
+    <footer>
+        <p>© 2025 - SafeWay: Sua rota segura em momentos de risco</p>
+    </footer>
+</body>
+</html>
