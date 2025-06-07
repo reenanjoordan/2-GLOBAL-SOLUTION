@@ -1,49 +1,107 @@
-# SafeWay - Aplicativo de Evacuação em Situações de Eventos Extremos
+# 🌊 SafeWay – Aplicativo de Evacuação em Situações de Eventos Extremos
 
-## 📋 Descrição
+🚨 **SafeWay** é uma solução web desenvolvida para auxiliar populações em áreas de risco durante enchentes, terremotos, deslizamentos de terras, tempestades oferecendo **rotas seguras, alertas de risco e um canal de pedido de ajuda** em situações de emergência.
 
-Este projeto é um aplicativo web desenvolvido para auxiliar em situações de risco, como enchentes, terremotos e deslizamentos. O app oferece:
+---
 
-- Simulação de rotas seguras para evacuação.
-- Sistema de alertas de risco em tempo real.
-- Formulário para solicitar ajuda em emergências.
+## 🔍 Visão Geral
 
-## 📂 Estrutura do Projeto
+Durante enchentes e desastres naturais, o tempo é o recurso mais valioso. O **SafeWay** foi criado para fornecer **informações rápidas e confiáveis** a cidadãos e agentes públicos, com foco na **segurança, agilidade e usabilidade**. Enchentes são um dos desastres naturais mais recorrentes e destrutivos em centros urbanos brasileiros. A cada temporada de chuvas, milhares de pessoas enfrentam perdas materiais, risco de vida e dificuldade de acesso a informações seguras e confiáveis.
 
-├── index.html  # Página inicial com apresentação do problema e solução
-├── rotas.html  # Página com mapa interativo para escolha de rotas seguras
-├── alerta.html # Página para visualização e seleção do nível de risco atual
-├── ajuda.html  # Formulário para envio de pedido de ajuda
-├── style.css   # Estilos CSS para todas as páginas
-├── script.js   # Scripts JavaScript para interação e simulações
-├── README.md   # Documentação do projeto
-├── integrantes.txt # Lista de integrantes do grupo
+O **SafeWay** surge como uma solução digital inteligente pensada para atuar em momentos críticos. Desenvolvido como um projeto acadêmico, seu objetivo é fornecer um sistema acessível, rápido e funcional que auxilie moradores, autoridades e voluntários durante situações de emergência provocadas por eventos climáticos extremos, como terremotos, deslizamentos de terras, tempestades e enchentes.
+
+🌐 Acesse o projeto em:  
+🔗 [2-global-solution.vercel.app](https://2-global-solution.vercel.app)
+
+---
+
+## 🧭 Objetivos principais:
+
+- Informar: Apresentar rotas seguras de evacuação com base na localização do usuário.
+- Alertar: Indicar se o local em que o cidadão se encontra está em zona de risco.
+- Ajudar: Oferecer um formulário para que pessoas em situação de emergência possam solicitar socorro.
+
+## 🎯 Público-Alvo: 
+
+- Populações em áreas urbanas de risco
+- Equipes da Defesa Civil e autoridades locais
+- Voluntários e ONGs atuantes em desastres naturais
+- Estudantes e professores em contextos educacionais de simulação e conscientização
+  
+---
+
+## 🚀 Funcionalidades
+
+| 🏠 `index.html`   | Página inicial explicando o problema das enchentes e apresentando a solução. |
+| 🗺️ `rotas.html`   | Simulação de **rotas seguras** utilizando um mapa interativo com a biblioteca **Leaflet.js**. |
+| ⚠️ `alerta.html`  | Verificação de **nível de risco** com base na localização do usuário.     |
+| 🆘 `ajuda.html`   | Formulário para **solicitação de ajuda**, podendo incluir nome, endereço e tipo de assistência. |
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- ## HTML5
-- ## CSS3
-- ## JavaScript
+- ✅ **HTML5**
+- 🎨 **CSS3**
+- 🧠 **JavaScript Puro**
+- 🗺️ **Leaflet.js** (Mapas Interativos)
+- 🧭 **Design responsivo e acessível**
 
-## Como usar
+---
 
-## 1. Abra o arquivo `index.html` no navegador para acessar a página principal.
-## 2. Navegue para as outras páginas para testar as funcionalidades.
-## 3. Em "Rotas Seguras", clique nas áreas do mapa para simular uma rota de evacuação.
-## 4. Em "Alerta de Risco", selecione o nível de risco para receber orientações.
-## 5. Em "Pedir Ajuda", preencha o formulário e envie seu pedido.
+## 📁 Estrutura de Pastas
 
-## 🎯 Possíveis melhorias futuras
+├── 📄 index.html  # Página inicial
+├── 📄 rotas.html  # Mapa de rotas seguras
+├── 📄 alerta.html # Verificação de risco
+├── 📄 ajuda.html  # Formulário de ajuda
+├── 📄 style.css   # Estilos globais
+├── 📄 script.js   # Scripts JS (alertas, mapa, formulário, etc.)
+├── 📄 integrantes.txt # Lista de integrantes do grupo
+└── 📄 README.md # Documentação do projeto (este arquivo)
 
-- Integração com API de localização GPS para rotas em tempo real.
-- Atualização automática de alertas baseada em dados meteorológicos.
-- Backend para armazenamento e gerenciamento dos pedidos de ajuda.
-- Mobile app para notificações push e acessibilidade.
+---
 
-## Autores
+## 👥 Integrantes
 
-Consulte o arquivo `integrantes.txt` para lista completa dos integrantes do projeto.
+- 👤 Renan Urtado Challó de Oliveira Jordão
+- 👤 Victor Perazzi de Melo 
+- 👤 Leonardo Rodrigues Henriques 
+- 👤 Naiara Silva e Silva 
 
-## Licença
+---
 
-Projeto para fins acadêmicos da FIAP.
+## 🧠 Aprendizados
+
+- Uso de **bibliotecas de mapas** (Leaflet)
+- Manipulação de DOM com JavaScript
+- Design centrado no usuário em cenários críticos
+- Responsividade e acessibilidade em projetos web
+- Criação de protótipos funcionais para MVPs
+
+---
+
+## 📌 Próximos Passos (Melhorias Futuras)
+
+- Integração com **API de previsão do tempo**
+- Geolocalização automática do usuário
+- Integração com banco de dados e backend
+- Módulo de **alertas em tempo real**
+- Aplicativo mobile com React Native ou Flutter
+
+---
+
+## 💡 Por que o SafeWay é relevante?
+
+- Atua diretamente na prevenção de perdas humanas e materiais
+- Ajuda a organizar respostas rápidas em situações de crise
+- É um sistema leve, acessível e multiplataforma, que pode rodar em navegadores desktop e mobile
+- Pode ser integrado com bancos de dados públicos e APIs meteorológicas no futuro
+
+O projeto foi desenvolvido com foco em usabilidade, clareza e responsabilidade social, alinhado aos Objetivos de Desenvolvimento Sustentável (ODS) da ONU, especialmente o Objetivo 11 – Tornar as cidades e os assentamentos humanos inclusivos, seguros, resilientes e sustentáveis.
+
+## 📽️ Vídeo Pitch
+
+🎥 Em breve: 
+
+---
