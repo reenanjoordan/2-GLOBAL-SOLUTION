@@ -33,13 +33,10 @@ O **SafeWay** surge como uma solução digital inteligente pensada para atuar em
 
 ## 🚀 Funcionalidades
 
-| 🏠 `index.html`   | Página inicial explicando o problema das enchentes e apresentando a solução. |
----
-| 🗺️ `rotas.html`   | Simulação de **rotas seguras** utilizando um mapa interativo com a biblioteca **Leaflet.js**. |
----
-| ⚠️ `alerta.html`  | Verificação de **nível de risco** com base na localização do usuário.     |
----
-| 🆘 `ajuda.html`   | Formulário para **solicitação de ajuda**, podendo incluir nome, endereço e tipo de assistência. |
+- 📍 Simulação de rotas seguras com uso de mapa interativo (Leaflet.js)
+- 🚨 Verificação de risco de enchente com alerta visual
+- 🆘 Formulário de ajuda para vítimas solicitarem socorro
+- 🌐 Navegação intuitiva com páginas separadas por funcionalidade
 
 ---
 
@@ -50,20 +47,23 @@ O **SafeWay** surge como uma solução digital inteligente pensada para atuar em
 - 🧠 **JavaScript Puro**
 - 🗺️ **Leaflet.js** (Mapas Interativos)
 - 🧭 **Design responsivo e acessível**
+- ✅ Git e Github
+- ✅ Vercel (Deploy)
 
 ---
 
 ## 📁 Estrutura de Pastas
 
-`📦 SafeWay
-├── 📄 index.html  # Página inicial
-├── 📄 rotas.html  # Mapa de rotas seguras
-├── 📄 alerta.html # Verificação de risco
-├── 📄 ajuda.html  # Formulário de ajuda
-├── 📄 style.css   # Estilos globais
-├── 📄 script.js   # Scripts JS (alertas, mapa, formulário, etc.)
-├── 📄 integrantes.txt # Lista de integrantes do grupo
-└── 📄 README.md # Documentação do projeto (este arquivo)`
+```text
+📦 SafeWay
+├── 📄 index.html         # Página inicial
+├── 📄 rotas.html         # Mapa de rotas seguras
+├── 📄 alerta.html        # Verificação de risco
+├── 📄 ajuda.html         # Formulário de ajuda
+├── 📄 style.css          # Estilos globais
+├── 📄 script.js          # Scripts JS (alertas, mapa, formulário, etc.)
+├── 📄 integrantes.txt    # Lista de integrantes do grupo
+└── 📄 README.md          # Documentação do projeto (este arquivo)
 
 ---
 
