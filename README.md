@@ -115,6 +115,6 @@ O projeto foi desenvolvido com foco em usabilidade, clareza e responsabilidade s
 
 ## 📽️ Vídeo Pitch
 
-🎥 Em breve: 
+🎥 Em breve: https://www.youtube.com/watch?v=pegdJEQMsR0
 
 ---
