@@ -47,13 +47,14 @@ O **SafeWay** surge como uma solução digital inteligente pensada para atuar em
 - 🧠 **JavaScript Puro**
 - 🗺️ **Leaflet.js** (Mapas Interativos)
 - 🧭 **Design responsivo e acessível**
-- ✅ Git e Github
-- ✅ Vercel (Deploy)
+- 🐙 **Git e Github**
+-  ▲ **Vercel (Deploy)**
 
 ---
 
 ## 📁 Estrutura de Pastas
 
+<div align="center">
 ```text
 📦 SafeWay
 ├── 📄 index.html         # Página inicial
@@ -64,7 +65,7 @@ O **SafeWay** surge como uma solução digital inteligente pensada para atuar em
 ├── 📄 script.js          # Scripts JS (alertas, mapa, formulário, etc.)
 ├── 📄 integrantes.txt    # Lista de integrantes do grupo
 └── 📄 README.md          # Documentação do projeto (este arquivo)
-
+</div> ```
 ---
 
 ## 👥 Integrantes
