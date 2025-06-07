@@ -10,7 +10,8 @@ Durante enchentes e desastres naturais, o tempo é o recurso mais valioso. O **S
 
 O **SafeWay** surge como uma solução digital inteligente pensada para atuar em momentos críticos. Desenvolvido como um projeto acadêmico, seu objetivo é fornecer um sistema acessível, rápido e funcional que auxilie moradores, autoridades e voluntários durante situações de emergência provocadas por eventos climáticos extremos, como terremotos, deslizamentos de terras, tempestades e enchentes.
 
-🌐 Acesse o projeto em:  
+🌐 Acesse o projeto em: 
+
 🔗 [2-global-solution.vercel.app](https://2-global-solution.vercel.app)
 
 ---
@@ -33,8 +34,11 @@ O **SafeWay** surge como uma solução digital inteligente pensada para atuar em
 ## 🚀 Funcionalidades
 
 | 🏠 `index.html`   | Página inicial explicando o problema das enchentes e apresentando a solução. |
+---
 | 🗺️ `rotas.html`   | Simulação de **rotas seguras** utilizando um mapa interativo com a biblioteca **Leaflet.js**. |
+---
 | ⚠️ `alerta.html`  | Verificação de **nível de risco** com base na localização do usuário.     |
+---
 | 🆘 `ajuda.html`   | Formulário para **solicitação de ajuda**, podendo incluir nome, endereço e tipo de assistência. |
 
 ---
@@ -52,12 +56,19 @@ O **SafeWay** surge como uma solução digital inteligente pensada para atuar em
 ## 📁 Estrutura de Pastas
 
 ├── 📄 index.html  # Página inicial
+|
 ├── 📄 rotas.html  # Mapa de rotas seguras
+|
 ├── 📄 alerta.html # Verificação de risco
+|
 ├── 📄 ajuda.html  # Formulário de ajuda
+|
 ├── 📄 style.css   # Estilos globais
+|
 ├── 📄 script.js   # Scripts JS (alertas, mapa, formulário, etc.)
+|
 ├── 📄 integrantes.txt # Lista de integrantes do grupo
+|
 └── 📄 README.md # Documentação do projeto (este arquivo)
 
 ---
