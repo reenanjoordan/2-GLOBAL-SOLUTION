@@ -1,6 +1,6 @@
-# 🌊 SafeWay – Aplicativo de Evacuação em Situações de Eventos Extremos
+# 🚨 SafeWay – Aplicativo de Evacuação em Situações de Eventos Extremos
 
-🚨 **SafeWay** é uma solução web desenvolvida para auxiliar populações em áreas de risco durante enchentes, terremotos, deslizamentos de terras, tempestades oferecendo **rotas seguras, alertas de risco e um canal de pedido de ajuda** em situações de emergência.
+**SafeWay** é uma solução web desenvolvida para auxiliar populações em áreas de risco durante enchentes, terremotos, deslizamentos de terras, tempestades oferecendo **rotas seguras, alertas de risco e um canal de pedido de ajuda** em situações de emergência.
 
 ---
 
