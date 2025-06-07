@@ -54,7 +54,7 @@ O **SafeWay** surge como uma solução digital inteligente pensada para atuar em
 
 ## 📁 Estrutura de Pastas
 
-```plaintext
+```
 ├── index.html           # Página inicial explicando o problema e a solução
 ├── rotas.html           # Página com simulação de rotas seguras
 ├── alerta.html          # Página para verificação de risco
@@ -63,7 +63,7 @@ O **SafeWay** surge como uma solução digital inteligente pensada para atuar em
 ├── script.js            # Script JavaScript com funcionalidades do projeto
 ├── integrantes.txt      # Lista dos integrantes do projeto
 ├── README.md            # Documentação do projeto
-
+```
 ---
 
 ## 👥 Integrantes
@@ -103,6 +103,15 @@ O **SafeWay** surge como uma solução digital inteligente pensada para atuar em
 - Pode ser integrado com bancos de dados públicos e APIs meteorológicas no futuro
 
 O projeto foi desenvolvido com foco em usabilidade, clareza e responsabilidade social, alinhado aos Objetivos de Desenvolvimento Sustentável (ODS) da ONU, especialmente o Objetivo 11 – Tornar as cidades e os assentamentos humanos inclusivos, seguros, resilientes e sustentáveis.
+
+## 👥 Integrantes
+
+- 👤 Renan Urtado Challó de Oliveira Jordão
+- 👤 Victor Perazzi de Melo 
+- 👤 Leonardo Rodrigues Henriques 
+- 👤 Naiara Silva e Silva 
+
+---
 
 ## 📽️ Vídeo Pitch
 
